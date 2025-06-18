@@ -68,15 +68,15 @@ function App() {
 
       <hr className="w-72 ml-20 mt-10 h-[1.0px] bg-gradient-to-r from-transparent via-slate-400 to-transparent border-0" />
 
-      <section className='pl-20 pt-10 grid grid-cols-2 gap-10 items-center'>
-        <div className="flex flex-row items-start justify-center gap-20">
+      <section className='pl-20 pt-10 grid grid-cols-2 items-center'>
+        <div className="flex flex-row items-start justify-center gap-30">
           <div className='flex flex-col items-start justify-center'>
-            <span className='font-bold'>Currently</span>
-            <span className='text-slate-400'>Senior Analyst @ Accenture</span>
+            <span className='text-2xl text-semibold'>Currently</span>
+            <span className='text-lg text-semibold text-[#00000080]'>Senior Analyst @ Accenture</span>
           </div>
           <div className='flex flex-col items-start justify-center'>
-            <span className='font-bold'>Previously at</span>
-            <span className='text-slate-400'>IBM, Delhivery</span>
+            <span className='text-2xl text-semibold'>Previously at</span>
+            <span className='text-lg text-semibold text-[#00000080]'>IBM, Delhivery</span>
           </div>
         </div>
       </section>

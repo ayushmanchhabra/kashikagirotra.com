@@ -7,7 +7,6 @@ view 1 2hrs
 - [ ] place image flex col, flex start
 - [ ] on window scroll, transition from hidden to display
 - [ ] make current view responsive with hamburger on md (view < 768px)
-- [ ] update currently and previously fonts
 
 view 2 1hr
 
