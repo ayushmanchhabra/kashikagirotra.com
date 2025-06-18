@@ -63,7 +63,7 @@ function App() {
             </li>
             <li>
               <a
-                className="bg-black hover:bg-white text-white hover:text-black border-1 border-black transition duration-300 rounded-full pt-1.5 pb-1.5 pl-4 pr-4 text-lg"
+                className="bg-black hover:bg-white text-white hover:text-black border-1 border-black transition duration-300 rounded-full pt-1.5 pb-1.5 pl-4 pr-4 text-lg absolute right-25 top-7"
                 href="/resume"
               >
                 Resume
