@@ -63,7 +63,7 @@ function App() {
             </li>
             <li>
               <a
-                className="bg-black hover:bg-white text-white hover:text-black border transition duration-300 rounded-full pt-1.5 pb-1.5 pl-4 pr-4 text-lg"
+                className="bg-black hover:bg-white text-white hover:text-black border-1 border-black transition duration-300 rounded-full pt-1.5 pb-1.5 pl-4 pr-4 text-lg"
                 href="/resume"
               >
                 Resume
@@ -90,7 +90,7 @@ function App() {
             <ul className="flex flex-col items-center p-4 gap-4 text-lg font-medium">
               <li><a href="/home" onClick={() => setIsOpen(false)}>Home</a></li>
               <li><a href="/about" onClick={() => setIsOpen(false)}>About</a></li>
-              <li><a href="/resume" onClick={() => setIsOpen(false)}>Resume</a></li>
+              <li><a className="bg-black text-white border-1 border-black transition duration-300 rounded-full pt-1.5 pb-1.5 pl-4 pr-4 text-lg" href="/resume" onClick={() => setIsOpen(false) }>Resume</a></li>
             </ul>
           </div>
         </nav>
