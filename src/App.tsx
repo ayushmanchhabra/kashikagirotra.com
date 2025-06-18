@@ -76,9 +76,18 @@ function App() {
             className="md:hidden h-9 w-9 flex flex-col justify-center items-center gap-1 cursor-pointer absolute right-10 top-8"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <span className="h-[2px] w-full bg-black rounded-full"></span>
-            <span className="h-[2px] w-full bg-black rounded-full"></span>
-            <span className="h-[2px] w-full bg-black rounded-full"></span>
+            <span
+              className={`h-[2px] w-full bg-black rounded-full transition-transform duration-300 ${isOpen ? 'rotate-45 translate-y-[6px]' : ''
+                }`}
+            ></span>
+            <span
+              className={`h-[2px] w-full bg-black rounded-full transition-opacity duration-300 ${isOpen ? 'opacity-0' : 'opacity-100'
+                }`}
+            ></span>
+            <span
+              className={`h-[2px] w-full bg-black rounded-full transition-transform duration-300 ${isOpen ? '-rotate-45 -translate-y-[6px]' : ''
+                }`}
+            ></span>
           </div>
 
           {/* Mobile Dropdown Menu (not full screen) */}
@@ -90,7 +99,7 @@ function App() {
             <ul className="flex flex-col items-center p-4 gap-4 text-lg font-medium">
               <li><a href="/home" onClick={() => setIsOpen(false)}>Home</a></li>
               <li><a href="/about" onClick={() => setIsOpen(false)}>About</a></li>
-              <li><a className="bg-black text-white border-1 border-black transition duration-300 rounded-full pt-1.5 pb-1.5 pl-4 pr-4 text-lg" href="/resume" onClick={() => setIsOpen(false) }>Resume</a></li>
+              <li><a className="bg-black text-white border-1 border-black transition duration-300 rounded-full pt-1.5 pb-1.5 pl-4 pr-4 text-lg" href="/resume" onClick={() => setIsOpen(false)}>Resume</a></li>
             </ul>
           </div>
         </nav>
