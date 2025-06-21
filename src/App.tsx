@@ -38,7 +38,7 @@ function App() {
           {/* Desktop Nav */}
           <ul className="hidden md:flex items-center gap-10">
             <li>
-              <a className="text-black text-lg" href="/home">
+              <a className="text-black text-lg" href="#">
                 <div className="relative h-6 overflow-hidden group w-fit">
                   <span className="block transition-transform duration-300 group-hover:-translate-y-full">
                     Home
@@ -50,7 +50,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a className="text-black text-lg" href="/about">
+              <a className="text-black text-lg" href="#">
                 <div className="relative h-6 overflow-hidden group w-fit">
                   <span className="block transition-transform duration-300 group-hover:-translate-y-full">
                     About
@@ -64,7 +64,7 @@ function App() {
             <li>
               <a
                 className="bg-black hover:bg-white text-white hover:text-black border-1 border-black transition duration-300 rounded-full pt-1.5 pb-1.5 pl-4 pr-4 text-lg absolute right-25 top-7"
-                href="/resume"
+                href="https://www.linkedin.com/in/kashika-girotra-3b6a58184" rel="noopener noreferrer" target="_blank"
               >
                 Resume
               </a>
@@ -97,8 +97,8 @@ function App() {
               }`}
           >
             <ul className="flex flex-col items-center p-4 gap-4 text-lg font-medium">
-              <li><a href="/home" onClick={() => setIsOpen(false)}>Home</a></li>
-              <li><a href="/about" onClick={() => setIsOpen(false)}>About</a></li>
+              <li><a href="#" onClick={() => setIsOpen(false)}>Home</a></li>
+              <li><a href="#" onClick={() => setIsOpen(false)}>About</a></li>
               <li><a className="bg-black text-white border-1 border-black transition duration-300 rounded-full pt-1.5 pb-1.5 pl-4 pr-4 text-lg" href="/resume" onClick={() => setIsOpen(false)}>Resume</a></li>
             </ul>
           </div>
@@ -129,7 +129,7 @@ function App() {
         </div>
       </section>
 
-      <hr className="w-72 ml-20 mt-10 h-[1.0px] bg-gradient-to-r from-transparent via-slate-400 to-transparent border-0" />
+      <hr className="w-96 ml-20 mt-10 h-[1.0px] bg-gradient-to-r from-transparent via-slate-400 to-transparent border-0" />
 
       <section className='pl-20 pt-10 grid grid-cols-2 items-center'>
         <div className="flex flex-row items-start justify-center gap-30">
