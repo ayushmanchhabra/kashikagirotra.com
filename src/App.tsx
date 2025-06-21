@@ -8,7 +8,7 @@ function App() {
   const menuRef = React.useRef(null);
 
   React.useEffect(() => {
-    const handleClickOutside = (event: any) => {
+    const handleClickOutside = (event: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
         setIsOpen(false);
       }
