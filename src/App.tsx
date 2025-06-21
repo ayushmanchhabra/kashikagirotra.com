@@ -5,7 +5,7 @@ import Logo from './logo.jpeg';
 function App() {
 
   const [isOpen, setIsOpen] = React.useState(false);
-  const menuRef = React.useRef(null);
+  const menuRef = React.useRef<HTMLDivElement | null>(null);
 
   React.useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
