@@ -18,3 +18,13 @@ view 3 2hr
 
 - [ ] testimonials - remove images
 - [ ] footer - overlay effect on window scroll
+
+
+image change
+carousal bigger
+
+reference
+
+https://www.saranshpagey.com
+https://rive.app/
+https://hiastro.com/
