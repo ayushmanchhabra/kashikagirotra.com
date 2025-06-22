@@ -105,7 +105,7 @@ function App() {
         </nav>
       </header>
 
-      <section className=' h-full pl-20 pt-15 flex justify-start items-center'>
+      <section className='h-full pl-20 pt-15 grid grid-cols-[2fr_1fr] items-center flex justify-start items-center'>
 
         <div className="flex flex-col items-start justify-center">
 
@@ -120,7 +120,7 @@ function App() {
           </span>
         </div>
 
-        <div className="flex items-center justify-center ml-40 mb-30">
+        <div className="max-sm:hidden h-full w-full flex flex-col items-center justify-center">
           <img
             src={Logo}
             alt="Hero"
