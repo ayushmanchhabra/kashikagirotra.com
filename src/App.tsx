@@ -93,7 +93,7 @@ function App() {
           {/* Mobile Dropdown Menu (not full screen) */}
           <div
             ref={menuRef}
-            className={`md:hidden absolute top-24 left-0 w-full bg-white shadow-md transition-all duration-300 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'
+            className={`md:hidden absolute right-10 top-8 w-full bg-white shadow-md transition-all duration-300 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'
               }`}
           >
             <ul className="flex flex-col items-center p-4 gap-4 text-lg font-medium">
@@ -132,7 +132,7 @@ function App() {
       <hr className="w-96 ml-20 mt-10 h-[1.0px] bg-gradient-to-r from-transparent via-slate-400 to-transparent border-0" />
 
       <section className='pl-20 pt-10 grid grid-cols-2 items-center'>
-        <div className="flex flex-row items-start justify-center gap-30">
+        <div className="flex md:flex-row items-start justify-center max-sm:flex-col max-sm:gap-10 md:gap-30">
           <div className='flex flex-col items-start justify-center'>
             <span className='text-2xl text-semibold'>Currently</span>
             <span className='text-lg text-semibold text-[#00000080]'>Senior Analyst @ Accenture</span>
