@@ -93,7 +93,7 @@ function App() {
           {/* Mobile Dropdown Menu (not full screen) */}
           <div
             ref={menuRef}
-            className={`md:hidden absolute right-10 top-8 w-full bg-white shadow-md transition-all duration-300 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'
+            className={`md:hidden absolute top-8 w-full bg-white shadow-md transition-all duration-300 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'
               }`}
           >
             <ul className="flex flex-col items-center p-4 gap-4 text-lg font-medium">
