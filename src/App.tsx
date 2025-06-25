@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 
 import { Menu } from './components';
-import { Home } from './screens';
+import { Home, Juno } from './screens';
 
 function App() {
 
@@ -14,6 +14,7 @@ function App() {
       <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/project/juno" element={<Juno />} />
       </Routes>
     </Router>
   )
