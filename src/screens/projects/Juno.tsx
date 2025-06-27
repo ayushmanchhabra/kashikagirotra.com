@@ -235,6 +235,293 @@ export default function Juno() {
             <span className=" mt-30 text-[42px] text-[#525252]">
                 Secondary Research
             </span>
+            <br /><br />
+            <div className="h-[525x] overflow-x-auto flex flex-row gap-5">
+                <div className="h-full min-w-[400px]">
+                    <span className="text-[#333333] text-[24px]">
+                        User Interface (UI) Design
+                    </span>
+                    <br /><br />
+                    <div className="bg-[#F7F7F7] rounded-[25px] p-10 h-full">
+                        <span className="text-[#525252] text-[20px]">
+                            Best practices for Designing conversational interfaces for virtual assistants
+                        </span>
+                        <br /><br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Conversational tone and personality
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Speak like a friend, not a robot.
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    User prompts and guidance
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Guide users like a coach
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Error handling
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Learn & provide clear instructions 
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Feedback mechanisms
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Informative error messages that help users
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="h-full min-w-[400px]">
+                    <span className="text-[#333333] text-[24px]">
+                        User Interface (UI) Design
+                    </span>
+                    <br /><br />
+                    <div className="bg-[#F7F7F7] rounded-[25px] p-10 h-full">
+                        <span className="text-[#525252] text-[20px]">
+                            Research techniques for Managing conversation flow in your virtual assistant. This includes:
+                        </span>
+                        <br /><br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Conversational tone and personality
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Speak like a friend, not a robot.
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    User prompts and guidance
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Guide users like a coach
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Error handling
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Learn & provide clear instructions 
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Feedback mechanisms
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Informative error messages that help users
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="h-full min-w-[400px]">
+                    <span className="text-[#333333] text-[24px]">
+                        User Interface (UI) Design
+                    </span>
+                    <br /><br />
+                    <div className="bg-[#F7F7F7] rounded-[25px] p-10 h-full">
+                        <span className="text-[#525252] text-[20px]">
+                            Best practices for Designing conversational interfaces for virtual assistants
+                        </span>
+                        <br /><br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Conversational tone and personality
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Speak like a friend, not a robot.
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    User prompts and guidance
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Guide users like a coach
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Error handling
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Learn & provide clear instructions 
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Feedback mechanisms
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Informative error messages that help users
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="h-full min-w-[400px]">
+                    <span className="text-[#333333] text-[24px]">
+                        User Interface (UI) Design
+                    </span>
+                    <br /><br />
+                    <div className="bg-[#F7F7F7] rounded-[25px] p-10 h-full">
+                        <span className="text-[#525252] text-[20px]">
+                            Best practices for Designing conversational interfaces for virtual assistants
+                        </span>
+                        <br /><br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Conversational tone and personality
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Speak like a friend, not a robot.
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    User prompts and guidance
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Guide users like a coach
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Error handling
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Learn & provide clear instructions 
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Feedback mechanisms
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Informative error messages that help users
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     );
