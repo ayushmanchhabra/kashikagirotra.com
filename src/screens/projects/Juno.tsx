@@ -7,7 +7,7 @@ export default function Juno() {
                 Juno - AI Assistant
             </span>
 
-            <hr className="mt-10 mb-10 ml-20 mr-20 text-[#DFE4DF]" />
+            <hr className="mt-10 mb-10 text-[#DFE4DF]" />
 
             <div className="">
                 <h5 className="text-[24px]">Experience Design for an AI Assistant</h5>
@@ -21,7 +21,7 @@ export default function Juno() {
                 Background & Problem
             </span>
 
-            <hr className="mt-15 mb-10 ml-20 mr-20 text-[#DFE4DF]" />
+            <hr className="mt-15 mb-10 text-[#DFE4DF]" />
 
             <div className="h-full pt-15 grid grid-cols-[1fr_2fr] flex items-start">
                 <div>
@@ -51,13 +51,13 @@ export default function Juno() {
                 </div>
             </div>
 
-            <span className="pl-20 mt-30 text-[42px]">
+            <span className=" mt-30 text-[42px]">
                 Research & Insight
             </span>
 
-            <hr className="mt-15 mb-10 ml-20 mr-20 text-[#DFE4DF]" />
+            <hr className="mt-15 mb-10 text-[#DFE4DF]" />
 
-            <span className="pl-20 mt-30 text-[42px] text-[#525252]">
+            <span className=" mt-30 text-[42px] text-[#525252]">
                 Primary Research
             </span>
 
@@ -77,7 +77,7 @@ export default function Juno() {
                 </div>
             </div>
 
-            <div className="pl-20">
+            <div className="">
                 <span className="text-[#333333] text-[30px]">
                     Understanding HR processes and employee experience
                 </span>
@@ -116,15 +116,125 @@ export default function Juno() {
                     </span>
                 </div>
 
-                <div className="bg-[#F5F5F5] rounded-t-[20px]">
+                <div className="bg-[#F5F5F5] rounded-[20px]">
                     <img className="border-0 rounded-t-[20px]" alt="Project Juno Image 1" src={ProjectJunoImage3} />
-                    <span className="text-[#333333] text-[16px] font-bold">Priya Mehta (Senior Developer, 38)</span>
-                    <br />
-                    <span className="text-[#333333] text-[16px] font-bold">About:</span>
-                    <br />
-                    <span className="text-[#333333] text-[16px]">I'm a passionate developer and leader who thrives on continuous learning and building successful teams. I'm driven to make a positive impact, both through my own technical expertise and by empowering those around me.</span>
+                    <div className="p-5">
+                        <span className="text-[#333333] text-[16px] font-bold">Priya Mehta (Senior Developer, 38)</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px] font-bold">About:</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px]">I'm a passionate developer and leader who thrives on continuous learning and building successful teams. I'm driven to make a positive impact, both through my own technical expertise and by empowering those around me.</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px] font-bold">Goals:</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px]">To be an effective leader & developer, constantly improve her skills, and contribute to the team's success.</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px] font-bold">Challenges:</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px]">Limited Awareness: Priya struggles to find relevant resources on company platforms and isn't fully aware of development opportunities.</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px]">Onboarding Obstacles: Technical difficulties and a lack of clear information might hinder her growth.</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px]">Feature Gaps: Some of the tools available lack features Priya needs, and inaccurate data displayed causes confusion.</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px] font-bold">Needs:</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px]">✦ Easy & quick access to work information</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px]">✦ Task efficiency for day to day tasks </span>
+                        <br />
+                        <span className="text-[#333333] text-[16px]">✦ Clear guidelines for actionable items</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px] font-bold">Tasks:</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px]">✦ Supervisory Feedbacks</span>
+                        <br />
+                        <span className="text-[#333333] text-[16px]">✦ Performance Management </span>
+                        <br />
+                        <span className="text-[#333333] text-[16px]">✦ Learning & Development</span>
+                        <br />
+                    </div>
                 </div>
             </div>
+
+            <span className="text-[#333333] text-[30px]">
+                Opportunities
+            </span>
+            <br />
+            <span className="text-[#333333] text-[16px]">
+                Here's how a generative AI-powered virtual assistant can address Priya's needs:
+            </span>
+            <div className="grid grid-cols-3 gap-10 pt-10 pb-10 ">
+                <div className="bg-[#F7F7F7] rounded-[25px] p-5 col-span-2">
+                    <span className="text-[#2cb2c8] text-[32px]">
+                        ✦
+                    </span>
+                    <br />
+                    <span className="text-[#333333] text-[20px]">
+                        Onboarding Buddy
+                    </span>
+                    <br />
+                    <span className="text-[#525252] text-[16px]">
+                        Guide - through role-specific company resources and track her progress.
+                    </span>
+                </div>
+                <div className="bg-[#F7F7F7] rounded-[25px] p-5">
+                    <span className="text-[#2cb2c8] text-[32px]">
+                        ✦
+                    </span>
+                    <br />
+                    <span className="text-[#333333] text-[20px]">
+                        Goal Coach
+                    </span>
+                    <br />
+                    <span className="text-[#525252] text-[16px]">
+                        Facilitate collaborative goal setting with team members.
+                    </span>
+                </div>
+                <div className="bg-[#F7F7F7] rounded-[25px] p-5">
+                    <span className="text-[#2cb2c8] text-[32px]">
+                        ✦
+                    </span>
+                    <br />
+                    <span className="text-[#333333] text-[20px]">
+                        Feedback Whisperer
+                    </span>
+                    <br />
+                    <span className="text-[#525252] text-[16px]">
+                        Offer secure, feedback options and remind her to request/give feedback.
+                    </span>
+                </div>
+                <div className="bg-[#F7F7F7] rounded-[25px] p-5">
+                    <span className="text-[#2cb2c8] text-[32px]">
+                        ✦
+                    </span>
+                    <br />
+                    <span className="text-[#333333] text-[20px]">
+                        Skill Hunter
+                    </span>
+                    <br />
+                    <span className="text-[#525252] text-[16px]">
+                        Recommend personalized learning paths with bite-sized learning modules
+                    </span>
+                </div>
+                <div className="bg-[#F7F7F7] rounded-[25px] p-5">
+                    <span className="text-[#2cb2c8] text-[32px]">
+                        ✦
+                    </span>
+                    <br />
+                    <span className="text-[#333333] text-[20px]">
+                        Knowledge Sharer
+                    </span>
+                    <br />
+                    <span className="text-[#525252] text-[16px]">
+                        Facilitate knowledge sharing through a platform & connect with mentors.
+                    </span>
+                </div>
+            </div>
+
+            <span className=" mt-30 text-[42px] text-[#525252]">
+                Secondary Research
+            </span>
 
         </div>
     );
