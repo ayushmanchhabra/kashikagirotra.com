@@ -493,6 +493,54 @@ export default function Juno() {
                 </div>
             </div>
 
+            <span className="text-[#333333] text-[32px] mt-30">
+                Conversational Design Principles We Followed
+            </span>
+            <br />
+            <span className="text-[#333333] text-[24px]">
+                Determining functionalities and conversational style.
+            </span>
+            <br /><br />
+            <span className="text-[#333333] text-[32px]">
+                Features & Tone
+            </span>
+            <br />
+            <div className="bg-[#F7F7F7] rounded-[25px] p-10 mt-10 mb-10">
+                <div className="flex flex-row justify-center gap-2">
+                    <div className="flex flex-col justify-center items-center gap-2">
+                        <span className="h-[45px] w-[160px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Informative
+                        </span>
+                        <span className="h-[45px] w-[160px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Transactional
+                        </span>
+                        <span className="h-[45px] w-[160px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Generative
+                        </span>
+                        <span className="h-[45px] w-[160px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Conversational
+                        </span>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-2">
+                        <span className="h-[45px] w-[285px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Achieve Goals
+                        </span>
+                        <span className="h-[45px] w-[285px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Engage Naturally
+                        </span>
+                        <span className="h-[45px] w-[285px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Personalise
+                        </span>
+                        <span className="h-[45px] w-[285px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Adapt to context & sentiment
+                        </span>
+                        <span className="h-[45px] w-[285px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Consistent
+                        </span>
+                    </div>
+                </div>
+            </div>
+
         </div>
     );
 }
