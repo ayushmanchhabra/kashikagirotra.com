@@ -236,13 +236,13 @@ export default function Juno() {
                 Secondary Research
             </span>
             <br /><br />
-            <div className="h-[525x] overflow-x-auto flex flex-row gap-5">
+            <div className="h-[525x] overflow-x-auto flex flex-row gap-5 pb-10">
                 <div className="h-full min-w-[400px]">
                     <span className="text-[#333333] text-[24px]">
                         User Interface (UI) Design
                     </span>
                     <br /><br />
-                    <div className="bg-[#F7F7F7] rounded-[25px] p-10 h-full">
+                    <div className="bg-[#F7F7F7] rounded-[25px] p-10 h-[500px]">
                         <span className="text-[#525252] text-[20px]">
                             Best practices for Designing conversational interfaces for virtual assistants
                         </span>
@@ -287,7 +287,7 @@ export default function Juno() {
                                 </span>
                                 <br />
                                 <span className="text-[#525252] text-[16px]">
-                                    Learn & provide clear instructions 
+                                    Learn & provide clear instructions
                                 </span>
                             </div>
                         </div>
@@ -310,10 +310,81 @@ export default function Juno() {
                 </div>
                 <div className="h-full min-w-[400px]">
                     <span className="text-[#333333] text-[24px]">
-                        User Interface (UI) Design
+                        Natural Language Processing
                     </span>
                     <br /><br />
-                    <div className="bg-[#F7F7F7] rounded-[25px] p-10 h-full">
+                    <div className="bg-[#F7F7F7] rounded-[25px] p-10 h-[500px]">
+                        <span className="text-[#525252] text-[20px]">
+                            Understanding of NLP techniques for our virtual assistant, like:
+                        </span>
+                        <br /><br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Sentiment analysis
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Identifying user emotions
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Text summarization
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Providing concise responses
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Speech recognition
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Enabling voice interaction
+                                </span>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="flex flex-row justify-start gap-2">
+                            <span className="text-[#00847f] text-[24px]">
+                                ✦
+                            </span>
+                            <div>
+                                <span className="text-[#333333] text-[20px]">
+                                    Text-to-speech
+                                </span>
+                                <br />
+                                <span className="text-[#525252] text-[16px]">
+                                    Multi-modal ways to interact
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="h-full min-w-[400px]">
+                    <span className="text-[#333333] text-[24px]">
+                        Dialogue Management
+                    </span>
+                    <br /><br />
+                    <div className="bg-[#F7F7F7] rounded-[25px] p-10 h-[500px]">
                         <span className="text-[#525252] text-[20px]">
                             Research techniques for Managing conversation flow in your virtual assistant. This includes:
                         </span>
@@ -324,11 +395,11 @@ export default function Juno() {
                             </span>
                             <div>
                                 <span className="text-[#333333] text-[20px]">
-                                    Conversational tone and personality
+                                    Intent recognition
                                 </span>
                                 <br />
                                 <span className="text-[#525252] text-[16px]">
-                                    Speak like a friend, not a robot.
+                                    Understanding user's goals
                                 </span>
                             </div>
                         </div>
@@ -339,11 +410,11 @@ export default function Juno() {
                             </span>
                             <div>
                                 <span className="text-[#333333] text-[20px]">
-                                    User prompts and guidance
+                                    Entity extraction
                                 </span>
                                 <br />
                                 <span className="text-[#525252] text-[16px]">
-                                    Guide users like a coach
+                                    Identifying key information in user queries
                                 </span>
                             </div>
                         </div>
@@ -354,26 +425,11 @@ export default function Juno() {
                             </span>
                             <div>
                                 <span className="text-[#333333] text-[20px]">
-                                    Error handling
+                                    Dialogue state tracking
                                 </span>
                                 <br />
                                 <span className="text-[#525252] text-[16px]">
-                                    Learn & provide clear instructions 
-                                </span>
-                            </div>
-                        </div>
-                        <br />
-                        <div className="flex flex-row justify-start gap-2">
-                            <span className="text-[#00847f] text-[24px]">
-                                ✦
-                            </span>
-                            <div>
-                                <span className="text-[#333333] text-[20px]">
-                                    Feedback mechanisms
-                                </span>
-                                <br />
-                                <span className="text-[#525252] text-[16px]">
-                                    Informative error messages that help users
+                                    Keeping context throughout conversation
                                 </span>
                             </div>
                         </div>
@@ -381,12 +437,12 @@ export default function Juno() {
                 </div>
                 <div className="h-full min-w-[400px]">
                     <span className="text-[#333333] text-[24px]">
-                        User Interface (UI) Design
+                        Understanding Capabilities
                     </span>
                     <br /><br />
-                    <div className="bg-[#F7F7F7] rounded-[25px] p-10 h-full">
+                    <div className="bg-[#F7F7F7] rounded-[25px] p-10 h-[500px]">
                         <span className="text-[#525252] text-[20px]">
-                            Best practices for Designing conversational interfaces for virtual assistants
+                            Studied the Capabilities of generative AI models like LaMDA or GPT-3.  Explore how they handle tasks like:
                         </span>
                         <br /><br />
                         <div className="flex flex-row justify-start gap-2">
@@ -395,11 +451,11 @@ export default function Juno() {
                             </span>
                             <div>
                                 <span className="text-[#333333] text-[20px]">
-                                    Conversational tone and personality
+                                    Text generation
                                 </span>
                                 <br />
                                 <span className="text-[#525252] text-[16px]">
-                                    Speak like a friend, not a robot.
+                                    Summaries, creative writing
                                 </span>
                             </div>
                         </div>
@@ -410,11 +466,11 @@ export default function Juno() {
                             </span>
                             <div>
                                 <span className="text-[#333333] text-[20px]">
-                                    User prompts and guidance
+                                    Question answering
                                 </span>
                                 <br />
                                 <span className="text-[#525252] text-[16px]">
-                                    Guide users like a coach
+                                    Open ended, factual
                                 </span>
                             </div>
                         </div>
@@ -425,97 +481,11 @@ export default function Juno() {
                             </span>
                             <div>
                                 <span className="text-[#333333] text-[20px]">
-                                    Error handling
+                                    Multilinguality
                                 </span>
                                 <br />
                                 <span className="text-[#525252] text-[16px]">
-                                    Learn & provide clear instructions 
-                                </span>
-                            </div>
-                        </div>
-                        <br />
-                        <div className="flex flex-row justify-start gap-2">
-                            <span className="text-[#00847f] text-[24px]">
-                                ✦
-                            </span>
-                            <div>
-                                <span className="text-[#333333] text-[20px]">
-                                    Feedback mechanisms
-                                </span>
-                                <br />
-                                <span className="text-[#525252] text-[16px]">
-                                    Informative error messages that help users
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="h-full min-w-[400px]">
-                    <span className="text-[#333333] text-[24px]">
-                        User Interface (UI) Design
-                    </span>
-                    <br /><br />
-                    <div className="bg-[#F7F7F7] rounded-[25px] p-10 h-full">
-                        <span className="text-[#525252] text-[20px]">
-                            Best practices for Designing conversational interfaces for virtual assistants
-                        </span>
-                        <br /><br />
-                        <div className="flex flex-row justify-start gap-2">
-                            <span className="text-[#00847f] text-[24px]">
-                                ✦
-                            </span>
-                            <div>
-                                <span className="text-[#333333] text-[20px]">
-                                    Conversational tone and personality
-                                </span>
-                                <br />
-                                <span className="text-[#525252] text-[16px]">
-                                    Speak like a friend, not a robot.
-                                </span>
-                            </div>
-                        </div>
-                        <br />
-                        <div className="flex flex-row justify-start gap-2">
-                            <span className="text-[#00847f] text-[24px]">
-                                ✦
-                            </span>
-                            <div>
-                                <span className="text-[#333333] text-[20px]">
-                                    User prompts and guidance
-                                </span>
-                                <br />
-                                <span className="text-[#525252] text-[16px]">
-                                    Guide users like a coach
-                                </span>
-                            </div>
-                        </div>
-                        <br />
-                        <div className="flex flex-row justify-start gap-2">
-                            <span className="text-[#00847f] text-[24px]">
-                                ✦
-                            </span>
-                            <div>
-                                <span className="text-[#333333] text-[20px]">
-                                    Error handling
-                                </span>
-                                <br />
-                                <span className="text-[#525252] text-[16px]">
-                                    Learn & provide clear instructions 
-                                </span>
-                            </div>
-                        </div>
-                        <br />
-                        <div className="flex flex-row justify-start gap-2">
-                            <span className="text-[#00847f] text-[24px]">
-                                ✦
-                            </span>
-                            <div>
-                                <span className="text-[#333333] text-[20px]">
-                                    Feedback mechanisms
-                                </span>
-                                <br />
-                                <span className="text-[#525252] text-[16px]">
-                                    Informative error messages that help users
+                                    Supporting diverse languages
                                 </span>
                             </div>
                         </div>
