@@ -1,4 +1,4 @@
-import { ProjectJunoImage1, ProjectJunoImage2, ProjectJunoImage3 } from "../../assets";
+import { ProjectJunoImage1, ProjectJunoImage2, ProjectJunoImage3, ProjectJunoImage4 } from "../../assets";
 
 export default function Juno() {
     return (
@@ -682,6 +682,63 @@ export default function Juno() {
                     </div>
                 </div>
             </div>
+            <div className="h-full pt-15 grid grid-cols-[1fr_2fr] flex items-start mb-15">
+                <div>
+                    <span className="text-[#333333] text-[36px]">
+                        Dialog Flows
+                    </span>
+                    <br />
+                    <span className="text-[#333333] text-[20px]">
+                        Best Practices we’ve followed:
+                    </span>
+                </div>
+
+                <div>
+                    <span className="flex flex-row items-center gap-2">
+                        <span className="text-[#00C8BF] text-[32px]">✦</span>
+                        <span className="text-[#525252] text-[20px]">Modern - Crisp & balanced conversational style, not too verbose</span>
+                    </span>
+                    <span className="flex flex-row items-center gap-2">
+                        <span className="text-[#00C8BF] text-[32px]">✦</span>
+                        <span className="text-[#525252] text-[20px]">Hybrid - Rule-based + GenAI-Based</span>
+                    </span>
+                    <span className="flex flex-row items-center gap-2">
+                        <span className="text-[#00C8BF] text-[32px]">✦</span>
+                        <span className="text-[#525252] text-[20px]">Standard tone of voice - balanced, polite yet confident, witty a bit</span>
+                    </span>
+                    <span className="flex flex-row items-center gap-2">
+                        <span className="text-[#00C8BF] text-[32px]">✦</span>
+                        <span className="text-[#525252] text-[20px]">Keep the conversation logic simple</span>
+                    </span>
+                    <span className="flex flex-row items-center gap-2">
+                        <span className="text-[#00C8BF] text-[32px]">✦</span>
+                        <span className="text-[#525252] text-[20px]">Add visuals and emojis to make chatbots more natural</span>
+                    </span>
+                    <span className="flex flex-row items-center gap-2">
+                        <span className="text-[#00C8BF] text-[32px]">✦</span>
+                        <span className="text-[#525252] text-[20px]">Use quick reply buttons and make the interface readable</span>
+                    </span>
+                </div>
+            </div>
+
+            <div className="mb-20">
+                <span className="text-[#333333] text-[36px]">
+                    Crafting Agent Responses in Detail
+                </span>
+                <br />
+                <span className="text-[#333333] text-[20px]">
+                    Documentation of flows in MS Excel
+                </span>
+                <br /><br />
+                <br /><br />
+                <img src={ProjectJunoImage4} />
+            </div>
+
+            <span className="text-[36px]">
+                Design & Iteration
+            </span>
+
+            <hr className="mt-15 mb-10 text-[#DFE4DF]" />
         </div>
     );
 }
