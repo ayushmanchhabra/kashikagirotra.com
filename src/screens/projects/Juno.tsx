@@ -506,7 +506,7 @@ export default function Juno() {
             </span>
             <br />
             <div className="bg-[#F7F7F7] rounded-[25px] p-10 mt-10 mb-10">
-                <div className="flex flex-row justify-center gap-2">
+                <div className="flex flex-row justify-center gap-4">
                     <div className="flex flex-col justify-center items-center gap-2">
                         <span className="h-[45px] w-[160px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
                             Informative
@@ -540,7 +540,148 @@ export default function Juno() {
                     </div>
                 </div>
             </div>
+            <span className="text-[#333333] text-[32px]">
+                Conversational Experience Guidelines
+            </span>
+            <br />
+            <div className="bg-[#F7F7F7] rounded-[25px] p-10 mt-10 mb-10">
+                <div className="flex flex-row justify-between gap-4">
+                    <div className="flex flex-col justify-center items-start">
+                        <span className="flex flex-row items-center gap-2">
+                            <span className="text-[#00C8BF] text-[32px]">✦</span>
+                            <span className="text-[#525252] text-[20px]">1-3 light sentences, max 3 msgs in a row</span>
+                        </span>
+                        <span className="flex flex-row items-center gap-2">
+                            <span className="text-[#00C8BF] text-[32px]">✦</span>
+                            <span className="text-[#525252] text-[20px]">Ask yourself, validate - test it!</span>
+                        </span>
+                        <span className="flex flex-row items-center gap-2">
+                            <span className="text-[#00C8BF] text-[32px]">✦</span>
+                            <span className="text-[#525252] text-[20px]">Don’t monopolise - Ask and let users opt-in</span>
+                        </span>
+                        <span className="flex flex-row items-center gap-2">
+                            <span className="text-[#00C8BF] text-[32px]">✦</span>
+                            <span className="text-[#525252] text-[20px]">Be informative but brief</span>
+                        </span>
+                        <span className="flex flex-row items-center gap-2">
+                            <span className="text-[#00C8BF] text-[32px]">✦</span>
+                            <span className="text-[#525252] text-[20px]">Eliminate words that contribute to goals</span>
+                        </span>
 
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-2">
+                        <span className="h-[45px] w-[450px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Greet user
+                        </span>
+                        <span className="h-[45px] w-[450px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Provide an overview of what VA can do?
+                        </span>
+                        <span className="h-[45px] w-[450px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Brevity - Don’t be overly wordy
+                        </span>
+                        <span className="h-[45px] w-[450px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Use menus, buttons or carousels to guide conv.
+                        </span>
+                        <span className="h-[45px] w-[450px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Keep topic list 4-5
+                        </span>
+                        <span className="h-[45px] w-[450px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                            Nudge for turn taking, but don’t burden!
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <span className="text-[#333333] text-[32px]">
+                Patterns & Variations
+            </span>
+            <br />
+            <div className="grid grid-cols-2 grid-rows-2 gap-4 p-4">
+                <div className="bg-[#F7F7F7] rounded-[15px] p-5 m-5">
+                    <span className="text-[#333333] text-[20px] block mb-4">
+                        Greetings
+                    </span>
+                    <div className="flex flex-wrap gap-2">
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Hey There!
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Good morning.
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Hi There!
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Hey
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Welcome!
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Hello.
+                        </span>
+                    </div>
+                </div>
+                <div className="bg-[#F7F7F7] rounded-[15px] p-5 m-5">
+                    <span className="text-[#333333] text-[20px] block mb-4">
+                        Signoffs
+                    </span>
+                    <div className="flex flex-wrap gap-2">
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Take Care!
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Have a great day!
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Good bye!
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Until next time!
+                        </span>
+                    </div>
+                </div>
+                <div className="bg-[#F7F7F7] rounded-[15px] p-5 m-5">
+                    <span className="text-[#333333] text-[20px] block mb-4">
+                        Acknowledgements
+                    </span>
+                    <div className="flex flex-wrap gap-2">
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Sure thing!
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Very Well.
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Got it!
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Understood
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Alright
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Noted.
+                        </span>
+                    </div>
+                </div>
+                <div className="bg-[#F7F7F7] rounded-[15px] p-5 m-5">
+                    <span className="text-[#333333] text-[20px] block mb-4">
+                        Reprompts
+                    </span>
+                    <div className="flex flex-wrap gap-2">
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Can we try that again
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Can you ask in a different way?
+                        </span>
+                        <span className="inline-block h-[45px] bg-[#00847f] text-white rounded-[10px] text-[16px] px-4 py-2">
+                            Whoops. I didn’t catch that.
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
