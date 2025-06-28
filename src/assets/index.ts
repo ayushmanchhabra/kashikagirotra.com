@@ -2,6 +2,10 @@ import ProjectJunoImage1 from './project_juno_image1.avif';
 import ProjectJunoImage2 from './project_juno_image2.avif';
 import ProjectJunoImage3 from './project_juno_image3.avif';
 import ProjectJunoImage4 from './project_juno_image4.png';
+import ProjectJunoImage5 from './project_juno_image5.avif';
+import ProjectJunoImage6 from './project_juno_image6.avif';
+import ProjectJunoImage7 from './project_juno_image7.webp';
+import ProjectJunoImage8 from './project_juno_image8.avif';
 import Logo from './logo.jpeg';
 
 export {
@@ -10,4 +14,8 @@ export {
     ProjectJunoImage2,
     ProjectJunoImage3,
     ProjectJunoImage4,
+    ProjectJunoImage5,
+    ProjectJunoImage6,
+    ProjectJunoImage7,
+    ProjectJunoImage8,
 };

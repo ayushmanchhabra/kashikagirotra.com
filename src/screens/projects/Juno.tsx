@@ -1,4 +1,13 @@
-import { ProjectJunoImage1, ProjectJunoImage2, ProjectJunoImage3, ProjectJunoImage4 } from "../../assets";
+import {
+    ProjectJunoImage1,
+    ProjectJunoImage2,
+    ProjectJunoImage3,
+    ProjectJunoImage4,
+    ProjectJunoImage5,
+    ProjectJunoImage6,
+    ProjectJunoImage7,
+    ProjectJunoImage8,
+} from "../../assets";
 
 export default function Juno() {
     return (
@@ -734,11 +743,62 @@ export default function Juno() {
                 <img src={ProjectJunoImage4} />
             </div>
 
-            <span className="text-[36px]">
+            <span className="text-[56px]">
                 Design & Iteration
             </span>
 
             <hr className="mt-15 mb-10 text-[#DFE4DF]" />
+
+            <span className="text-[#333333] text-[36px]">
+                Wireframing
+            </span>
+
+            <br />
+
+            <span className="text-[#333333] text-[20px]">
+                <span className="font-semibold">Wireframes</span> to define structure
+            </span>
+
+            <img src={ProjectJunoImage5} className="mt-10 mb-10" />
+            <br />
+            <img src={ProjectJunoImage6} className="mt-10 mb-10" />
+            <br />
+            <span className="text-[#333333] text-[24px]">
+                Inputs from routine feedback sessions & review from stakeholders
+            </span>
+            <br />
+            <span className="text-[#333333] text-[20px]">"Time stamp wasn't incorporated"</span>
+            <br />
+            <span className="text-[#333333] text-[20px] font-bold">"Something more simple rather than something fancy"</span>
+            <br />
+            <span className="text-[#333333] text-[20px]">"Visually inconsistent design"</span>
+            <br />
+            <span className="text-[#333333] text-[20px] font-bold">"Not very conversational"</span>
+            <br />
+            <span className="text-[#333333] text-[20px]">"Layout issues"</span>
+            <br />
+            <span className="text-[#333333] text-[20px] font-bold">“A compact version of it would be handy”</span>
+            <br />
+            <span className="text-[#333333] text-[20px]">
+                Initial wireframes were <span className="font-bold">fullscreen</span>, but user feedback revealed that it felt too heavy for a chat interaction.
+            </span>
+            <br />
+            <img src={ProjectJunoImage7} className="mt-10 mb-10" />
+            <br />
+            <span className="text-[#333333] text-[20px]">
+                <span className="font-bold">What we changed: </span>
+                We pivoted to a 
+                <span className="font-bold"> lightweight, pop-up model</span>
+                that could dock into any part of the parent application (eXp or others).
+            </span>
+            <br /><br />
+            <span className="text-[#333333] text-[20px]">
+                <span className="font-bold">Why: </span>
+                Users wanted something that was 
+                <span className="font-bold"> always accessible, non-intrusive, and responsive.</span>
+            </span>
+            <span className="text-[#333333] text-[20px]"></span>
+            <img src={ProjectJunoImage8} className="mt-10 mb-10" />
         </div>
     );
 }
