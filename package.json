@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ayushmanchhabra.github.io/kashikagirotra.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build && cp .github/CNAME ./dist/CNAME",

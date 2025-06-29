@@ -16,7 +16,7 @@ import ProjectJunoImage15 from './project_juno_image15.mp4';
 import ProjectJunoImage16 from './project_juno_image16.mp4';
 import ProjectJunoImage17 from './project_juno_image17.mp4';
 import ProjectJunoImage18 from './project_juno_image18.mp4';
-import Logo from './logo.jpeg';
+import Logo from './logo.png';
 
 export {
     Logo,
