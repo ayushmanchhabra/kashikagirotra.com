@@ -42,7 +42,7 @@ export default function Juno() {
 
             <hr className="mt-15 mb-10 text-[#DFE4DF]" />
 
-            <div className="h-full pt-15 grid grid-cols-[1fr_2fr] flex items-start">
+            <div className="h-full pt-15 grid grid-cols-[1fr_2fr] max-md:grid-cols-1 flex items-start">
                 <div>
                     <span className="text-[#333333] text-[30px]">
                         What problem were we solving?
@@ -56,7 +56,7 @@ export default function Juno() {
                 </div>
             </div>
 
-            <div className="h-full pt-15 pb-20 grid grid-cols-[1fr_2fr] flex items-start">
+            <div className="h-full pt-15 pb-20 grid grid-cols-[1fr_2fr] max-md:grid-cols-1 flex items-start">
                 <div>
                     <span className="text-[#333333] text-[30px]">
                         What was the project goal?
@@ -80,7 +80,7 @@ export default function Juno() {
                 Primary Research
             </span>
 
-            <div className="h-full pt-15 pb-20 grid grid-cols-[1fr_2fr] flex items-start">
+            <div className="h-full pt-15 pb-20 grid grid-cols-[1fr_2fr]  max-md:grid-cols-1 flex items-start">
                 <div>
                     <span className="text-[#333333] text-[30px]">
                         Why was the initial research conducted?
@@ -104,7 +104,7 @@ export default function Juno() {
                 <img className="border-0 rounded-[20px] mt-25 mb-25" alt="Project Juno Image 1" src={ProjectJunoImage2} />
             </div>
 
-            <div className="h-full pt-15 pb-20 grid grid-cols-[1fr_2fr] flex items-start">
+            <div className="h-full pt-15 pb-20 grid grid-cols-[1fr_2fr] max-md:grid-cols-1 flex items-start">
                 <div>
                     <span className="text-[#333333] text-[30px]">
                         Who would be using it?
@@ -128,7 +128,7 @@ export default function Juno() {
                 </div>
             </div>
 
-            <div className="h-full pt-15 pb-20 grid grid-cols-[1fr_2fr] flex items-start">
+            <div className="h-full pt-15 pb-20 grid grid-cols-[1fr_2fr] max-md:grid-cols-1 flex items-start">
                 <div>
                     <span className="text-[#333333] text-[30px]">
                         Persona
