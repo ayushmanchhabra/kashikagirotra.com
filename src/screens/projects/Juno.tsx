@@ -22,7 +22,7 @@ import {
 export default function Juno() {
     return (
         <div className="font-inter p-20">
-            <span className="text-[84px]">
+            <span className=" max-md:text-[48px] text-[84px]">
                 Juno - AI Assistant
             </span>
 
@@ -184,7 +184,7 @@ export default function Juno() {
                 Here's how a generative AI-powered virtual assistant can address Priya's needs:
             </span>
             <div className="grid grid-cols-3 gap-10 pt-10 pb-10 ">
-                <div className="bg-[#F7F7F7] rounded-[25px] p-5 col-span-2">
+                <div className="bg-[#F7F7F7] rounded-[25px] p-5 col-span-2 max-md:col-span-3">
                     <span className="text-[#2cb2c8] text-[32px]">
                         ✦
                     </span>
@@ -197,7 +197,7 @@ export default function Juno() {
                         Guide - through role-specific company resources and track her progress.
                     </span>
                 </div>
-                <div className="bg-[#F7F7F7] rounded-[25px] p-5">
+                <div className="bg-[#F7F7F7] rounded-[25px] p-5 max-md:col-span-3">
                     <span className="text-[#2cb2c8] text-[32px]">
                         ✦
                     </span>
@@ -210,7 +210,7 @@ export default function Juno() {
                         Facilitate collaborative goal setting with team members.
                     </span>
                 </div>
-                <div className="bg-[#F7F7F7] rounded-[25px] p-5">
+                <div className="bg-[#F7F7F7] rounded-[25px] p-5 max-md:col-span-3">
                     <span className="text-[#2cb2c8] text-[32px]">
                         ✦
                     </span>
@@ -223,7 +223,7 @@ export default function Juno() {
                         Offer secure, feedback options and remind her to request/give feedback.
                     </span>
                 </div>
-                <div className="bg-[#F7F7F7] rounded-[25px] p-5">
+                <div className="bg-[#F7F7F7] rounded-[25px] p-5 max-md:col-span-3">
                     <span className="text-[#2cb2c8] text-[32px]">
                         ✦
                     </span>
@@ -236,7 +236,7 @@ export default function Juno() {
                         Recommend personalized learning paths with bite-sized learning modules
                     </span>
                 </div>
-                <div className="bg-[#F7F7F7] rounded-[25px] p-5">
+                <div className="bg-[#F7F7F7] rounded-[25px] p-5 max-md:col-span-3">
                     <span className="text-[#2cb2c8] text-[32px]">
                         ✦
                     </span>
@@ -512,6 +512,8 @@ export default function Juno() {
                 </div>
             </div>
 
+            <br /><br />
+
             <span className="text-[#333333] text-[32px] mt-30">
                 Conversational Design Principles We Followed
             </span>
@@ -525,18 +527,18 @@ export default function Juno() {
             </span>
             <br />
             <div className="bg-[#F7F7F7] rounded-[25px] p-10 mt-10 mb-10">
-                <div className="flex flex-row justify-center gap-4">
+                <div className="flex flex-row justify-center gap-4 max-md:flex-col">
                     <div className="flex flex-col justify-center items-center gap-2">
-                        <span className="h-[45px] w-[160px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                        <span className="h-[45px] w-[160px] max-md:w-[285px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
                             Informative
                         </span>
-                        <span className="h-[45px] w-[160px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                        <span className="h-[45px] w-[160px] max-md:w-[285px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
                             Transactional
                         </span>
-                        <span className="h-[45px] w-[160px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                        <span className="h-[45px] w-[160px] max-md:w-[285px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
                             Generative
                         </span>
-                        <span className="h-[45px] w-[160px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                        <span className="h-[45px] w-[160px] max-md:w-[285px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
                             Conversational
                         </span>
                     </div>
@@ -564,7 +566,7 @@ export default function Juno() {
             </span>
             <br />
             <div className="bg-[#F7F7F7] rounded-[25px] p-10 mt-10 mb-10">
-                <div className="flex flex-row justify-between gap-4">
+                <div className="flex flex-row max-md:flex-col justify-between gap-4">
                     <div className="flex flex-col justify-center items-start">
                         <span className="flex flex-row items-center gap-2">
                             <span className="text-[#00C8BF] text-[32px]">✦</span>
@@ -614,7 +616,7 @@ export default function Juno() {
                 Patterns & Variations
             </span>
             <br />
-            <div className="grid grid-cols-2 grid-rows-2 gap-4 p-4">
+            <div className="grid grid-cols-2 grid-rows-2 gap-4 p-4 max-md:grid-cols-1">
                 <div className="bg-[#F7F7F7] rounded-[15px] p-5 m-5">
                     <span className="text-[#333333] text-[20px] block mb-4">
                         Greetings
@@ -701,7 +703,7 @@ export default function Juno() {
                     </div>
                 </div>
             </div>
-            <div className="h-full pt-15 grid grid-cols-[1fr_2fr] flex items-start mb-15">
+            <div className="h-full pt-15 grid grid-cols-[1fr_2fr] flex items-start mb-15 max-md:grid-cols-1">
                 <div>
                     <span className="text-[#333333] text-[36px]">
                         Dialog Flows
@@ -810,7 +812,7 @@ export default function Juno() {
             <span className="text-[#333333] text-[20px]"></span>
             <img src={ProjectJunoImage8} className="mt-10 mb-10" />
             <br />
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 max-md:grid-cols-1">
                 <img src={ProjectJunoImage9} className="mt-10 mb-10" />
                 <div className="flex flex-col justify-center items-start gap-2 pl-10">
                     <span className="text-[#333333] text-[32px]">
@@ -841,7 +843,7 @@ export default function Juno() {
 
             <hr className="mt-15 mb-10 text-[#DFE4DF]" />
 
-            <div className="flex flex-row justify-between items-start gap-2 mb-20">
+            <div className="flex flex-row justify-between items-start gap-2 mb-20 max-md:flex-col">
                 <span className="text-[#333333] text-[36px]">
                     Design System
                 </span>
@@ -867,7 +869,7 @@ export default function Juno() {
             <img src={ProjectJunoImage11} className="mt-10 mb-10" />
             <img src={ProjectJunoImage12} className="mt-10 mb-10" />
 
-            <div className="h-full pt-15 grid grid-cols-[1fr_2fr] flex items-start mb-15">
+            <div className="h-full pt-15 grid grid-cols-[1fr_2fr] flex items-start mb-15 max-md:grid-cols-1">
                 <div>
                     <span className="text-[#333333] text-[36px]">
                         UI / Visual Design
@@ -912,7 +914,7 @@ export default function Juno() {
             </span>
             <br /><br /><br />
 
-            <div className="grid grid-cols-2 gap-8 mb-20">
+            <div className="grid grid-cols-2 gap-8 mb-20 max-md:grid-cols-1">
                 <video autoPlay>
                     <source src={ProjectJunoImage15} type="video/mp4" className="mt-10 mb-10" />
                     Your browser does not support the video tag.
@@ -930,7 +932,7 @@ export default function Juno() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-8 mb-20">
+            <div className="grid grid-cols-2 gap-8 mb-20 max-md:grid-cols-1">
                 <video autoPlay>
                     <source src={ProjectJunoImage16} type="video/mp4" className="mt-10 mb-10" />
                     Your browser does not support the video tag.
@@ -947,7 +949,8 @@ export default function Juno() {
                     </span>
                 </div>
             </div>
-            <div className="grid grid-cols-2 gap-8 mb-20">
+
+            <div className="grid grid-cols-2 gap-8 mb-20 max-md:grid-cols-1">
                 <video autoPlay>
                     <source src={ProjectJunoImage17} type="video/mp4" className="mt-10 mb-10" />
                     Your browser does not support the video tag.
@@ -964,7 +967,8 @@ export default function Juno() {
                     </span>
                 </div>
             </div>
-            <div className="grid grid-cols-2 gap-8 mb-20">
+
+            <div className="grid grid-cols-2 gap-8 mb-20 max-md:grid-cols-1">
                 <video autoPlay>
                     <source src={ProjectJunoImage18} type="video/mp4" className="mt-10 mb-10" />
                     Your browser does not support the video tag.
@@ -988,7 +992,7 @@ export default function Juno() {
 
             <hr className="mt-15 mb-10 text-[#DFE4DF]" />
 
-            <div className="grid grid-cols-[1fr_2fr] gap-8 mb-20">
+            <div className="grid grid-cols-[1fr_2fr] gap-8 mb-20 max-md:grid-cols-1">
                 <span className="text-[#333333] text-[36px]">
                     Measurable Impact
                 </span>
@@ -1002,7 +1006,7 @@ export default function Juno() {
                 </span>
             </div>
 
-            <div className="grid grid-cols-[1fr_2fr] gap-8 mb-20">
+            <div className="grid grid-cols-[1fr_2fr] gap-8 mb-20 max-md:grid-cols-1">
                 <span className="text-[#333333] text-[36px]">
                     Reusability & Framework Creation
                 </span>
@@ -1031,7 +1035,7 @@ export default function Juno() {
                 </span>
             </div>
 
-            <div className="grid grid-cols-[1fr_2fr] gap-8 mb-20">
+            <div className="grid grid-cols-[1fr_2fr] gap-8 mb-20 max-md:grid-cols-1">
                 <span className="text-[#333333] text-[36px]">
                     What’s Next?
                 </span>
@@ -1054,7 +1058,7 @@ export default function Juno() {
                 </span>
             </div>
 
-            <div className="grid grid-cols-[1fr_2fr] gap-8 mb-20">
+            <div className="grid grid-cols-[1fr_2fr] gap-8 mb-20 max-md:grid-cols-1">
                 <span className="text-[#333333] text-[36px]">
                     Final Reflection
                 </span>
