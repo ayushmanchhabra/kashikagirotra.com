@@ -11,6 +11,12 @@ import {
     ProjectJunoImage10,
     ProjectJunoImage11,
     ProjectJunoImage12,
+    ProjectJunoImage13,
+    ProjectJunoImage14,
+    ProjectJunoImage15,
+    ProjectJunoImage16,
+    ProjectJunoImage17,
+    ProjectJunoImage18,
 } from "../../assets";
 
 export default function Juno() {
@@ -887,13 +893,93 @@ export default function Juno() {
                     <span>
                         <span className="text-[#00847F] text-[20px] mr-1">✦</span>
                         <span className="text-[#333333] text-[20px] font-bold">Brand Consistency: </span>
-                        <span className="text-[#525252] text-[20px]">: The design aligns with the overall brand identity, maintaining a cohesive visual language across products or services.</span>
+                        <span className="text-[#525252] text-[20px]">The design aligns with the overall brand identity, maintaining a cohesive visual language across products or services.</span>
                     </span>
                 </div>
             </div>
 
-            <div>
-                
+            <div className="grid grid-cols-2 gap-8 mb-20">
+                <img src={ProjectJunoImage13} className="mt-10 mb-10" />
+                <img src={ProjectJunoImage14} className="mt-10 mb-10" />
+            </div>
+
+            <span className="text-[#333333] text-[36px]">
+                The 4 Conversation Flows
+            </span>
+            <br />
+            <span className="text-[#333333] text-[20px]">
+                While these specific scenarios may not directly reflect our primary persona’s day-to-day needs, we chose them intentionally to showcase Juno’s capabilities across the four key conversation flows: conversational, transactional, informative, and generative. These flows demonstrate Juno’s adaptability across a range of employee journeys, both emotional and functional, and how it seamlessly shifts between understanding, acting, informing, and creating, depending on the context.
+            </span>
+            <br /><br /><br />
+
+            <div className="grid grid-cols-2 gap-8 mb-20">
+                <video autoPlay>
+                    <source src={ProjectJunoImage15} type="video/mp4" className="mt-10 mb-10" />
+                    Your browser does not support the video tag.
+                </video>
+                <div className="flex flex-col justify-center items-start gap-2 pl-10">
+                    <span className="text-[#333333] text-[32px]">
+                        Conversational
+                    </span>
+                    <span className="text-[#333333] text-[20px]">
+                        For human like, empathetic dialogue (e.g., family expansion, bereavement leave)
+                    </span>
+                    <span className="text-[#333333] text-[20px] italic">
+                        “We’re here for you, During this tough time of personal loss”
+                    </span>
+                </div>
+            </div>
+
+            <div className="grid grid-cols-2 gap-8 mb-20">
+                <video autoPlay>
+                    <source src={ProjectJunoImage16} type="video/mp4" className="mt-10 mb-10" />
+                    Your browser does not support the video tag.
+                </video>
+                <div className="flex flex-col justify-center items-start gap-2 pl-10">
+                    <span className="text-[#333333] text-[32px]">
+                        Transactional
+                    </span>
+                    <span className="text-[#333333] text-[20px]">
+                        For task completions like Onboarding, Relocation, applying leave, updating details.
+                    </span>
+                    <span className="text-[#333333] text-[20px] italic">
+                        “Leave applied. I’ve also notified your manager and set your OOO reply. Add to calendar?”
+                    </span>
+                </div>
+            </div>
+            <div className="grid grid-cols-2 gap-8 mb-20">
+                <video autoPlay>
+                    <source src={ProjectJunoImage17} type="video/mp4" className="mt-10 mb-10" />
+                    Your browser does not support the video tag.
+                </video>
+                <div className="flex flex-col justify-center items-start gap-2 pl-10">
+                    <span className="text-[#333333] text-[32px]">
+                        Informative
+                    </span>
+                    <span className="text-[#333333] text-[20px]">
+                        For things like summarizing policies, FAQ's .
+                    </span>
+                    <span className="text-[#333333] text-[20px] italic">
+                        “Here’s your policy for maternity Leave"
+                    </span>
+                </div>
+            </div>
+            <div className="grid grid-cols-2 gap-8 mb-20">
+                <video autoPlay>
+                    <source src={ProjectJunoImage18} type="video/mp4" className="mt-10 mb-10" />
+                    Your browser does not support the video tag.
+                </video>
+                <div className="flex flex-col justify-center items-start gap-2 pl-10">
+                    <span className="text-[#333333] text-[32px]">
+                        Generative
+                    </span>
+                    <span className="text-[#333333] text-[20px]">
+                        For factual queries like payslip breakdown or leave balance, writing feedback.
+                    </span>
+                    <span className="text-[#333333] text-[20px] italic">
+                        “Your CTC includes ₹X salary, ₹Y bonus, and ₹Z benefits”
+                    </span>
+                </div>
             </div>
         </div>
     );

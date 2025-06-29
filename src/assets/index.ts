@@ -10,6 +10,12 @@ import ProjectJunoImage9 from './project_juno_image9.png';
 import ProjectJunoImage10 from './project_juno_image10.png';
 import ProjectJunoImage11 from './project_juno_image11.png';
 import ProjectJunoImage12 from './project_juno_image12.png';
+import ProjectJunoImage13 from './project_juno_image13.png';
+import ProjectJunoImage14 from './project_juno_image14.png';
+import ProjectJunoImage15 from './project_juno_image15.mp4';
+import ProjectJunoImage16 from './project_juno_image16.mp4';
+import ProjectJunoImage17 from './project_juno_image17.mp4';
+import ProjectJunoImage18 from './project_juno_image18.mp4';
 import Logo from './logo.jpeg';
 
 export {
@@ -26,4 +32,10 @@ export {
     ProjectJunoImage10,
     ProjectJunoImage11,
     ProjectJunoImage12,
+    ProjectJunoImage13,
+    ProjectJunoImage14,
+    ProjectJunoImage15,
+    ProjectJunoImage16,
+    ProjectJunoImage17,
+    ProjectJunoImage18,
 };
