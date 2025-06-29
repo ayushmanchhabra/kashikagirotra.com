@@ -591,22 +591,22 @@ export default function Juno() {
 
                     </div>
                     <div className="flex flex-col justify-center items-center gap-2">
-                        <span className="h-[45px] w-[450px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                        <span className="h-[45px] max-sm:h-[75px] w-[450px] max-sm:w-[300px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
                             Greet user
                         </span>
-                        <span className="h-[45px] w-[450px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                        <span className="h-[45px] max-sm:h-[75px] w-[450px] max-sm:w-[300px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
                             Provide an overview of what VA can do?
                         </span>
-                        <span className="h-[45px] w-[450px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                        <span className="h-[45px] max-sm:h-[75px] w-[450px] max-sm:w-[300px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
                             Brevity - Don’t be overly wordy
                         </span>
-                        <span className="h-[45px] w-[450px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                        <span className="h-[45px] max-sm:h-[75px] w-[450px] max-sm:w-[300px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
                             Use menus, buttons or carousels to guide conv.
                         </span>
-                        <span className="h-[45px] w-[450px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                        <span className="h-[45px] max-sm:h-[75px] w-[450px] max-sm:w-[300px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
                             Keep topic list 4-5
                         </span>
-                        <span className="h-[45px] w-[450px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
+                        <span className="h-[45px] max-sm:h-[75px] w-[450px] max-sm:w-[300px] bg-[#00847f] text-white rounded-[10px] text-[20px] pl-3 flex items-center text-left">
                             Nudge for turn taking, but don’t burden!
                         </span>
                     </div>
@@ -837,6 +837,7 @@ export default function Juno() {
                     </span>
                 </div>
             </div>
+            <br /><br />
             <span className="text-[56px]">
                 The UI & Design System
             </span>
