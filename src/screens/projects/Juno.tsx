@@ -7,6 +7,10 @@ import {
     ProjectJunoImage6,
     ProjectJunoImage7,
     ProjectJunoImage8,
+    ProjectJunoImage9,
+    ProjectJunoImage10,
+    ProjectJunoImage11,
+    ProjectJunoImage12,
 } from "../../assets";
 
 export default function Juno() {
@@ -787,18 +791,110 @@ export default function Juno() {
             <br />
             <span className="text-[#333333] text-[20px]">
                 <span className="font-bold">What we changed: </span>
-                We pivoted to a 
+                We pivoted to a
                 <span className="font-bold"> lightweight, pop-up model</span>
                 that could dock into any part of the parent application (eXp or others).
             </span>
             <br /><br />
             <span className="text-[#333333] text-[20px]">
                 <span className="font-bold">Why: </span>
-                Users wanted something that was 
+                Users wanted something that was
                 <span className="font-bold"> always accessible, non-intrusive, and responsive.</span>
             </span>
             <span className="text-[#333333] text-[20px]"></span>
             <img src={ProjectJunoImage8} className="mt-10 mb-10" />
+            <br />
+            <div className="grid grid-cols-2">
+                <img src={ProjectJunoImage9} className="mt-10 mb-10" />
+                <div className="flex flex-col justify-center items-start gap-2 pl-10">
+                    <span className="text-[#333333] text-[32px]">
+                        Finalizing UI layout
+                    </span>
+                    <span className="text-[#333333] text-[20px]">
+                        Width: Min 414px (expandable)
+                        <br />
+                        Height: 650px (fixed)
+                        <br />
+                        Layout Grid: 4 columns
+                        <br />
+                        Gutter: 24px (fixed spacing between columns)
+                        <br />
+                        Margin: 24px (fixed spacing from sides)
+                        <br /><br />
+                        Header: 64px height
+                        <br />
+                        Typing Box: 100px height
+                        <br />
+                        Body: 486px height
+                    </span>
+                </div>
+            </div>
+            <span className="text-[56px]">
+                The UI & Design System
+            </span>
+
+            <hr className="mt-15 mb-10 text-[#DFE4DF]" />
+
+            <div className="flex flex-row justify-between items-start gap-2 mb-20">
+                <span className="text-[#333333] text-[36px]">
+                    Design System
+                </span>
+
+                <div>
+                    <ul className="list-disc list-inside text-[#333333] text-[20px]">
+                        We built a scalable design system that evolved over time.
+                        <br /><br />
+                        <li>
+                            Components like message bubbles, cards, inputs.
+                        </li>
+                        <li>
+                            Tokens for color, spacing, radius, and typography
+                        </li>
+                        <li>
+                            Accessibility checks on contrast and legibility
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <img src={ProjectJunoImage10} className="mt-10 mb-10" />
+            <img src={ProjectJunoImage11} className="mt-10 mb-10" />
+            <img src={ProjectJunoImage12} className="mt-10 mb-10" />
+
+            <div className="h-full pt-15 grid grid-cols-[1fr_2fr] flex items-start mb-15">
+                <div>
+                    <span className="text-[#333333] text-[36px]">
+                        UI / Visual Design
+                    </span>
+                </div>
+
+                <div className="flex flex-col justify-center items-start gap-2">
+                    <span>
+                        <span className="text-[#00847F] text-[20px] mr-1">✦</span>
+                        <span className="text-[#333333] text-[20px] font-bold">Focused on the user: </span>
+                        <span className="text-[#525252] text-[20px]">Modern - Crisp & balanced conversational style, not too verbose</span>
+                    </span>
+                    <span>
+                        <span className="text-[#00847F] text-[20px] mr-1">✦</span>
+                        <span className="text-[#333333] text-[20px] font-bold">Market Trends: </span>
+                        <span className="text-[#525252] text-[20px]">The design aligns with current market trends and user preferences - minimalist aesthetics influencing the design direction.</span>
+                    </span>
+                    <span>
+                        <span className="text-[#00847F] text-[20px] mr-1">✦</span>
+                        <span className="text-[#333333] text-[20px] font-bold">Aesthetics: </span>
+                        <span className="text-[#525252] text-[20px]">The design prioritizes visual appeal and creates a pleasing user experience. This could be a focus on clean lines, a specific color scheme, or a modern look. </span>
+                    </span>
+                    <span>
+                        <span className="text-[#00847F] text-[20px] mr-1">✦</span>
+                        <span className="text-[#333333] text-[20px] font-bold">Brand Consistency: </span>
+                        <span className="text-[#525252] text-[20px]">: The design aligns with the overall brand identity, maintaining a cohesive visual language across products or services.</span>
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                
+            </div>
         </div>
     );
 }
