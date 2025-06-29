@@ -981,6 +981,96 @@ export default function Juno() {
                     </span>
                 </div>
             </div>
+
+            <span className="text-[56px]">
+                Outcomes & Impact
+            </span>
+
+            <hr className="mt-15 mb-10 text-[#DFE4DF]" />
+
+            <div className="grid grid-cols-[1fr_2fr] gap-8 mb-20">
+                <span className="text-[#333333] text-[36px]">
+                    Measurable Impact
+                </span>
+
+                <span>
+                    <span className="text-[#333333] text-[20px] font-bold">Clarity & Ease of Use : </span>
+                    <span className="text-[#333333] text-[20px]">4.5/5 in testing</span>
+                    <br />
+                    <span className="text-[#333333] text-[20px] font-bold">Return Interest : </span>
+                    <span className="text-[#333333] text-[20px]">80% of testers said they’d use it again</span>
+                </span>
+            </div>
+
+            <div className="grid grid-cols-[1fr_2fr] gap-8 mb-20">
+                <span className="text-[#333333] text-[36px]">
+                    Reusability & Framework Creation
+                </span>
+
+                <span>
+                    <span className="text-[#333333] text-[20px]">One of Juno's biggest successes is that it now </span>
+                    <span className="text-[#333333] text-[20px] font-bold">acts as a reference model for building future assistants</span>
+                    <span className="text-[#333333] text-[20px]">. The </span>
+                    <span className="text-[#333333] text-[20px] font-bold">conversational principles, component system, and interaction logic </span>
+                    <span className="text-[#333333] text-[20px]">we developed can be adapted to:</span>
+                    <br /><br />
+                    <ul className="list-disc list-inside text-[#333333] text-[20px]">
+                        <li>
+                            HR assistants for other departments
+                        </li>
+                        <li>
+                            Finance bots (e.g., expense reporting)
+                        </li>
+                        <li>
+                            IT support bots
+                        </li>
+                        <li>
+                            Cross-functional employee engagement tools
+                        </li>
+                    </ul>
+                </span>
+            </div>
+
+            <div className="grid grid-cols-[1fr_2fr] gap-8 mb-20">
+                <span className="text-[#333333] text-[36px]">
+                    What’s Next?
+                </span>
+
+                <span>
+                    <span className="text-[#333333] text-[20px]">We're exploring several new directions based on what worked:</span>
+                    <br /><br />
+                    <span className="text-[#333333] text-[20px] font-bold">Voice Input : </span>
+                    <span className="text-[#333333] text-[20px]">Make Juno even more accessible and faster to interact with</span>
+                    <br />
+                    <span className="text-[#333333] text-[20px] font-bold">Co-Pilot Mode </span>
+                    <span className="text-[#333333] text-[20px]">Proactively assist with calendar, reminders, and project planning</span>
+                    <br />
+                    <span className="text-[#333333] text-[20px] font-bold">Persona Customization </span>
+                    <span className="text-[#333333] text-[20px]">Let teams choose the tone, avatar, and personality of their assistant</span>
+                    <br />
+                    <span className="text-[#333333] text-[20px] font-bold">Mini Project Manager AI </span>
+                    <span className="text-[#333333] text-[20px]">Help track to-dos, follow up with teammates, and stay ahead of goals</span>
+                    <br />
+                </span>
+            </div>
+
+            <div className="grid grid-cols-[1fr_2fr] gap-8 mb-20">
+                <span className="text-[#333333] text-[36px]">
+                    Final Reflection
+                </span>
+
+                <span>
+                    <span className="text-[#333333] text-[20px]">Juno began as a tool, but grew into a </span>
+                    <span className="text-[#333333] text-[20px] font-bold">design system, a conversation framework, and a product philosophy</span>
+                    <br />
+                    <span className="text-[#333333] text-[20px] font">We didn’t just build a bot.</span>
+                    <br />
+                    <span className="text-[#333333] text-[20px]">We built a scalable model for </span>
+                    <span className="text-[#333333] text-[20px] font-bold">empathetic, efficient, and intelligent workplace assistance.</span>
+                    <br /><br />
+                    <span className="text-[#333333] text-[20px]">It proves that when, design is thoughtful, and conversation is human, you can build tech that people actually want to talk to.</span>
+                </span>
+            </div>
         </div>
     );
 }
