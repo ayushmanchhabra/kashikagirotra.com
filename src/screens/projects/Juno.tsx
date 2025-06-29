@@ -21,7 +21,7 @@ import {
 
 export default function Juno() {
     return (
-        <div className="font-inter p-20">
+        <div className="font-inter p-20 max-sm:p-5 max-md:p-10">
             <span className=" max-md:text-[48px] text-[84px]">
                 Juno - AI Assistant
             </span>
